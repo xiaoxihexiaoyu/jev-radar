@@ -9,7 +9,7 @@
       "score"
     ],
     "generated_at": "2026-09-19",
-    "total_curated": 509,
+    "total_curated": 517,
     "sources": [
       "awesome-typesafe",
       "awesomejev.com",
@@ -10058,6 +10058,159 @@
       "tweet": "—",
       "stars": 0,
       "one_liner": "A small 8x8 chess game where White is played by Jev",
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-09-27"
+      }
+    },
+    {
+      "name": "jevtest",
+      "author": "Just-Betr",
+      "category": "testing",
+      "primitives": [
+        "choice",
+        "noul"
+      ],
+      "status": "live",
+      "url": "https://github.com/Just-Betr/jevtest",
+      "tweet": "—",
+      "stars": 0,
+      "one_liner": "Plain-English end-to-end tests for Android and iOS apps: write what a user does and what they should see (do/expect/see in YAML), Jev works out the taps, CI replays every run exactly; on PyPI with docs, CI and coverage",
+      "metrics": null,
+      "verification": {
+        "tier": "A",
+        "method": "artifact-inspected (README + YAML example)",
+        "confidence": 0.9,
+        "verified_at": "2026-09-27"
+      }
+    },
+    {
+      "name": "jev-json-builder",
+      "author": "eortizs",
+      "category": "sdk",
+      "primitives": [
+        "choice",
+        "noul",
+        "score"
+      ],
+      "status": "live",
+      "url": "https://github.com/eortizs/jev-json-builder",
+      "tweet": "—",
+      "stars": 0,
+      "one_liner": "Typed production-ready JSON payloads from natural language WITHOUT a generative LLM: Express middleware, one request ~100ms, fully inferred types; playground renders per-question probabilities and confidence bars live; benchmark reports p50/p95, tokens, parse failures and prints a clearly-labeled heuristic estimate instead of fabricated numbers when no baseline key is set; 33 mocked tests",
+      "metrics": null,
+      "verification": {
+        "tier": "A",
+        "method": "artifact-inspected (README + usage + benchmark)",
+        "confidence": 0.9,
+        "verified_at": "2026-09-27"
+      }
+    },
+    {
+      "name": "sightline",
+      "author": "hughesbrayden",
+      "category": "research",
+      "primitives": [],
+      "status": "live",
+      "url": "https://github.com/hughesbrayden/sightline",
+      "tweet": "—",
+      "stars": 0,
+      "one_liner": "A harness that teaches itself what context to show Jev; the testbed is a support-ticket routing puzzle where correct routing draws a hidden picture, so you can watch accuracy come into focus; genome-based curator configs; built for the Harness Engineering & Model Wrangling Hackathon (MongoDB NYC, Sep 2026)",
+      "metrics": null,
+      "verification": {
+        "tier": "A",
+        "method": "artifact-inspected (README + DEMO/COLLABORATION docs)",
+        "confidence": 0.9,
+        "verified_at": "2026-09-27"
+      }
+    },
+    {
+      "name": "tracky",
+      "author": "thesyedammar",
+      "category": "browser-extension",
+      "primitives": [
+        "choice"
+      ],
+      "status": "live",
+      "url": "https://github.com/thesyedammar/tracky",
+      "tweet": "—",
+      "stars": 0,
+      "one_liner": "Ctrl+F that finds by meaning: describe what you are looking for and the winning sentence glows in place — with receipts; only picks existing sentences, validates every answer, and errors instead of guessing; API key lives only in a local 127.0.0.1 helper, never in the browser; honest phased status (contract frozen, engine in progress)",
+      "metrics": null,
+      "verification": {
+        "tier": "A",
+        "method": "artifact-inspected (README + repo map)",
+        "confidence": 0.9,
+        "verified_at": "2026-09-27"
+      }
+    },
+    {
+      "name": "awesome-jev-use-cases",
+      "author": "walidboulanouar",
+      "category": "directory",
+      "primitives": [],
+      "status": "live",
+      "url": "https://github.com/walidboulanouar/awesome-jev-use-cases",
+      "tweet": "https://x.com/tamarajtran/status/2100694549362553153",
+      "stars": 240,
+      "one_liner": "Awesome list of Jev use cases: 74 demos ranked by likes, 150+ GitHub repos, and more",
+      "metrics": "240 stars in ~12 days",
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-09-27"
+      }
+    },
+    {
+      "name": "jev-switch",
+      "author": "ARCJ137442",
+      "category": "infra",
+      "primitives": [],
+      "status": "live",
+      "url": "https://github.com/ARCJ137442/jev-switch",
+      "tweet": "—",
+      "stars": 1,
+      "one_liner": "A fast, local-first gateway for aggregating and routing Jev model endpoints (bilingual EN/zh)",
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-09-27"
+      }
+    },
+    {
+      "name": "herdr-jev-auto-compaction",
+      "author": "jpwinans",
+      "category": "compaction",
+      "primitives": [],
+      "status": "live",
+      "url": "https://github.com/jpwinans/herdr-jev-auto-compaction",
+      "tweet": "—",
+      "stars": 0,
+      "one_liner": "Auto-compact Claude Code or Codex sessions when a task FINISHES, not when context fills up",
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-09-27"
+      }
+    },
+    {
+      "name": "jev-product-compliance",
+      "author": "raiharsh88",
+      "category": "ecommerce",
+      "primitives": [],
+      "status": "live",
+      "url": "https://github.com/raiharsh88/jev-product-compliance",
+      "tweet": "—",
+      "stars": 0,
+      "one_liner": "Screen store products for illegal or policy-risky goods per country with Jev",
       "metrics": null,
       "verification": {
         "tier": "B",
