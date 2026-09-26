@@ -9,7 +9,7 @@
       "score"
     ],
     "generated_at": "2026-09-19",
-    "total_curated": 501,
+    "total_curated": 509,
     "sources": [
       "awesome-typesafe",
       "awesomejev.com",
@@ -9906,6 +9906,164 @@
         "method": "primary-source-exists",
         "confidence": 0.75,
         "verified_at": "2026-09-26"
+      }
+    },
+    {
+      "name": "liuyao",
+      "author": "masonweb3",
+      "category": "cultural",
+      "primitives": [
+        "choice"
+      ],
+      "status": "live",
+      "url": "https://github.com/masonweb3/liuyao",
+      "tweet": "—",
+      "stars": 0,
+      "one_liner": "Chinese-style six-line I Ching divination site (sixyao.app): the chart is computed deterministically by code (Najia, six relations, world/response, six spirits — tests cover Zengshan Buyi worked examples and 4,096 parity fixtures); good-or-bad is decided by rules with reasons shown, NEVER by a language model; Jev only reads the question — classifies topic to pick the use god and screens self-harm/emergencies/gambling; manual fallback if Jev is down; free, no ads/sign-in/trackers, question sent once and not logged; shake-to-toss on phones",
+      "metrics": "Astro 7 on Cloudflare Workers; source-available, commercial use prohibited",
+      "verification": {
+        "tier": "A",
+        "method": "artifact-inspected (README EN, feature list)",
+        "confidence": 0.9,
+        "verified_at": "2026-09-27"
+      }
+    },
+    {
+      "name": "vibecheck",
+      "author": "Neoo-Blue",
+      "category": "mobile",
+      "primitives": [
+        "choice",
+        "score",
+        "noul"
+      ],
+      "status": "live",
+      "url": "https://github.com/Neoo-Blue/vibecheck",
+      "tweet": "—",
+      "stars": 0,
+      "one_liner": "Vibe check before you reply: Android accessibility overlay reads visible chat messages, asks Jev what is really going on, shows a card from a screen-edge bubble; two-step judging (triage: situation/intent/danger/urgency, then situation-specific second step with different headers per context); supports Messenger/WhatsApp/Telegram/WeChat/QQ/Soul/LINE/KakaoTalk and 15+; honestly excludes Discord/Slack because all-left layouts defeat the geometry; bilingual EN/zh, no root no adb",
+      "metrics": null,
+      "verification": {
+        "tier": "A",
+        "method": "artifact-inspected (README EN + judging tables)",
+        "confidence": 0.9,
+        "verified_at": "2026-09-27"
+      }
+    },
+    {
+      "name": "nifi-jev",
+      "author": "gbesse",
+      "category": "data-infra",
+      "primitives": [
+        "noul"
+      ],
+      "status": "live",
+      "url": "https://github.com/gbesse/nifi-jev",
+      "tweet": "—",
+      "stars": 0,
+      "one_liner": "Apache NiFi 2.12 RouteWithJev processor: semantic yes/no routing with four relations — yes (p>=0.8), no (p<=0.2), review (the uncertainty lane in between), failure; adds jev.probability/model/state.sha256 attributes without storing keys or text; trilingual property docs (FR/EN/ES); limits stated plainly: probabilistic results do not replace authorization rules or human review for high stakes; part of gbesse's same-burst Flink/MariaDB/Pinot/Strapi suite",
+      "metrics": null,
+      "verification": {
+        "tier": "A",
+        "method": "artifact-inspected (README FR)",
+        "confidence": 0.9,
+        "verified_at": "2026-09-27"
+      }
+    },
+    {
+      "name": "augustus",
+      "author": "24601",
+      "category": "agent-infra",
+      "primitives": [
+        "choice",
+        "score",
+        "noul"
+      ],
+      "status": "live",
+      "url": "https://github.com/24601/Augustus",
+      "tweet": "—",
+      "stars": 10,
+      "one_liner": "Agent skill for finding, building, evaluating and improving decision-model systems: pick the placement (code, LLM call, classifier, ranker, or a person), set thresholds/abstention/human fallback, build the eval before optimizing; working model 'evidence -> bounded judgment -> explicit policy -> checked action -> observed outcome'; 'sometimes the best result is a formula, a checklist, or no new model'; TypeSafe-independent, Jev is the default hosted exemplar",
+      "metrics": null,
+      "verification": {
+        "tier": "A",
+        "method": "artifact-inspected (README + scope)",
+        "confidence": 0.9,
+        "verified_at": "2026-09-27"
+      }
+    },
+    {
+      "name": "jev-feishu",
+      "author": "ai-freer",
+      "category": "productivity",
+      "primitives": [],
+      "status": "live",
+      "url": "https://github.com/ai-freer/jev-feishu",
+      "tweet": "—",
+      "stars": 0,
+      "one_liner": "macOS Feishu (Lark) companion with TypeSafe Jev and local Ollama replies",
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-09-27"
+      }
+    },
+    {
+      "name": "graphify-jev",
+      "author": "54Lynnn",
+      "category": "code-intelligence",
+      "primitives": [],
+      "status": "live",
+      "url": "https://github.com/54Lynnn/graphify-jev",
+      "tweet": "https://x.com/graphify (product account)",
+      "stars": 0,
+      "one_liner": "Next-gen codebase knowledge graph with Jev semantic navigation and zero vector DB",
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-09-27"
+      }
+    },
+    {
+      "name": "jev-watch",
+      "author": "polaminggkub-debug",
+      "category": "agent-safety",
+      "primitives": [],
+      "status": "live",
+      "url": "https://github.com/polaminggkub-debug/jev-watch",
+      "tweet": "—",
+      "stars": 0,
+      "one_liner": "Watchdog for AI coding agents: stops Codex/OpenCode when they loop, stall or drift off the task",
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-09-27"
+      }
+    },
+    {
+      "name": "chess (dagfinndybvig)",
+      "author": "dagfinndybvig",
+      "category": "game",
+      "primitives": [
+        "choice"
+      ],
+      "status": "live",
+      "url": "https://github.com/dagfinndybvig/Chess",
+      "tweet": "—",
+      "stars": 0,
+      "one_liner": "A small 8x8 chess game where White is played by Jev",
+      "metrics": null,
+      "verification": {
+        "tier": "B",
+        "method": "primary-source-exists",
+        "confidence": 0.75,
+        "verified_at": "2026-09-27"
       }
     }
   ]
